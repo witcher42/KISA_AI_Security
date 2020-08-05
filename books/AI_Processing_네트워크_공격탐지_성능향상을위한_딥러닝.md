@@ -17,9 +17,9 @@ __우선 데이터를 전처리하는 과정은,__
 - 특징(feature)중 숫자 유형을 가진 데이터의 경우 __tanh를 이용하여 –0.99에서 0.99의 범위 값으로 변환__ 하게 된다.  
   - __이는 연산의 결과가 0이 나올 경우 최적화 과정에서 over fitting 문제가 발생할 수 있기 때문__ 이며, 0의 값이 나오지 않도록 clip을 지정한다.
 - 두 번째 service protocol 특징의 경우 범주 유형의 데이터 특성을 가지고 있다.  
-  - 범주형 데이터의 경우 일반적인 자연어에 비해 크기가 작으므로 soft max를 이용하여 처리한다.  
+  - 범주형 데이터의 경우 일반적인 자연어에 비해 크기가 작으므로 __softmax__ 를 이용하여 처리한다.  
   - 그리고 __one hot encoding__ 을 이용하여 vector를 생성할 경우 0이 발생할 수 있으므로 __noise값을 넣어 정규화를 한다.__
-- 세 번째 payload와 같은 긴 문자열 데이터의 경우 word-gram을 이용한 후, Gumbel-softmax을 이용하여 분포를 정리한다.  
+- 세 번째 __payload__ 와 같은 긴 문자열 데이터의 경우 word-gram을 이용한 후, Gumbel-softmax을 이용하여 분포를 정리한다.  
   - encoding 단계에서 먼저 payload를 word로 분리한 다음 각 word embedding을 통해 vector로 변환한다.  
   - payload에 많이 포함된 단어(user name, paswword, control) 등은 word embedding 과정에 노이즈가 유입되는 경우를 고려했다.  
   - 또한 잡음의 영향을 없애기 위해 word embedding mapping을 수행하기 전에 payload를 필터링 한다.  
