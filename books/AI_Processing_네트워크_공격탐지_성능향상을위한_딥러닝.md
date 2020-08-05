@@ -11,7 +11,7 @@
 
 __우선 데이터를 전처리하는 과정은,__  
   - 먼저 Raw packet 데이터는 scapy 프로그램을 이용하여 패킷의 양방향 IP, service protocol, payload 데이터를 추출한 후 vector형태의 인코딩 단계를 거친다.  
-  - 추출된 payload는 word 특성을 같기에 word embedding방법을 사용하여 인코딩한다.  
+  - 추출된 payload는 word 특성을 갖기에 word embedding방법을 사용하여 인코딩한다.  
   - 이와 같은 방법은 자연언어 처리 분야에서는 전반적인 성능 향상을 위해 사용한다.  
 ------
 - 특징(feature)중 숫자 유형을 가진 데이터의 경우 __tanh를 이용하여 –0.99에서 0.99의 범위 값으로 변환__ 하게 된다.  
