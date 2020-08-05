@@ -13,24 +13,6 @@ https://byline.network/2020/05/19-109/
 - 다음은 레이블된 데이터에서 공격의 특징을 뽑아낸 피처(feature)를 추출할 차례다. 출발지 IP, 포트 등 단위 보안 장비에서 제공하는 기본 정보만으로는 AI 알고리즘이 의미 있는 분석을 하기 어렵기 때문에 피처를 선정하고 이에 맞게 데이터를 변환하는 과정을 거쳐야만 양질의 학습 데이터를 축적할 수 있다.  
 - AI 알고리즘은 피처 추출을 통해 전처리된 데이터셋을 학습하는 과정을 기반으로 새로운 데이터를 판단하기 위한 기준을 스스로 만들게 된다.  
 - AI 알고리즘이 만든 탐지 모델에 새로운 데이터를 주입해 나온 결과에 대한 피드백을 주는 과정을 반복함으로써, 탐지 모델의 정확성을 끌어올리게 된다.  
-  
-# <기계학습 개론> 실습
-이현도 ‖ 서울대학교 Biointelligence Laboratory  
-최원석 ‖ 서울대학교 Biointelligence Laboratory  
-김윤성 ‖ 서울대학교 Biointelligence Laboratory  
-https://bi.snu.ac.kr/Courses/ML2019/lab_slides/Lab1.pdf  
-  
-◼ Pytorch를 활용한 딥러닝 프로그램의 기본 구조  
-- Model(nn.Module) : Class  
-  - 전체적인 인공신경망의 구조를 선언하는 부분  
-  - __ init __ , forward 등의 method는 꼭 필요함  
-- Dataset : Class   
-  - 학습에 필요한 데이터셋을 선언하는 부분  
-  - __ init __, __ len __, __ getitem __의 method는 꼭 필요함  
-- Training   
-  - 학습을 진행하는 부분  
-- {Validation & Test}  
-  - 학습된 결과를 확인하는 부분  
    
 # ADVERSARIAL MACHINE LEARNING AT SCALE  
 Alexey Kurakin ‖ Google Brain  
