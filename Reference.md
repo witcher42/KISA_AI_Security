@@ -23,10 +23,10 @@ https://bi.snu.ac.kr/Courses/ML2019/lab_slides/Lab1.pdf
 ◼ Pytorch를 활용한 딥러닝 프로그램의 기본 구조  
 - Model(nn.Module) : Class  
   - 전체적인 인공신경망의 구조를 선언하는 부분  
-  - __init__, forward 등의 method는 꼭 필요함  
+  - __ init __ , forward 등의 method는 꼭 필요함  
 - Dataset : Class   
   - 학습에 필요한 데이터셋을 선언하는 부분  
-  - __init__, __len__, __getitem__의 method는 꼭 필요함  
+  - __ init __, __ len __, __ getitem __의 method는 꼭 필요함  
 - Training   
   - 학습을 진행하는 부분  
 - {Validation & Test}  
