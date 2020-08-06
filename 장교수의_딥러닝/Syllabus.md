@@ -13,7 +13,8 @@ https://bi.snu.ac.kr/Courses/4ai20s/4ai20s.html
 
 # Data Mining and Information Retrieval
 https://bi.snu.ac.kr/Courses/DMIR14/DMIR14s.html
-
+  
+-----
 [AI전문가] 장병탁 서울대 AI연구원장 "나 대신 강의하는 AI 만들고 싶어"  
 30년간 머신러닝 연구 몰두..."초등교육은 AI를 소양으로 가르쳐야"  
 https://zdnet.co.kr/view/?no=20200428093929
