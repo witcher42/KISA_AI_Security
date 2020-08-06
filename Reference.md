@@ -14,6 +14,11 @@ https://byline.network/2020/05/19-109/
 - AI 알고리즘은 피처 추출을 통해 전처리된 데이터셋을 학습하는 과정을 기반으로 새로운 데이터를 판단하기 위한 기준을 스스로 만들게 된다.  
 - AI 알고리즘이 만든 탐지 모델에 새로운 데이터를 주입해 나온 결과에 대한 피드백을 주는 과정을 반복함으로써, 탐지 모델의 정확성을 끌어올리게 된다.  
    
+# AI, TI 기반의 보안위협 대응체계
+삼성SDS ‖ 사이버보안사업팀  
+https://image.samsungsds.com/global/ko/about/event/agenda/__icsFiles/afieldfile/2018/09/27/05-AI-In-Cybersecurtiy.pdf  
+
+  
 # ADVERSARIAL MACHINE LEARNING AT SCALE  
 Alexey Kurakin ‖ Google Brain  
 Ian J. Goodfellow ‖ OpenAI  
