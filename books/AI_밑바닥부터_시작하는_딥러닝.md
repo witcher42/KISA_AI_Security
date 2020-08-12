@@ -25,8 +25,10 @@
 - 모든 계층은 인스턴스 변수인 params와 grads를 가진다  
 - self.params[] = self.params + layer.params  
 - 신경망의 성능을 나타내는 척도는 Loss(Cross Entropy Error)  
-  -  매개변수에 대한 손실의 기울기를 얻어 매개변수를 갱신한다  
-### 신경망 구현 순서
+  - 매개변수에 대한 손실의 기울기를 얻어 매개변수를 갱신한다  
+  - 다중분류의 경우 Softmax + Cross Entropy Error   
+  - 이중분류의 경우 Sigmoid + Cross Entropy Error  
+### 딥러닝 구현 순서
 - class TwoLayerNet: init
 - 가중치와 편향 초기화  
 - 계층 생성  
@@ -35,11 +37,23 @@
 - 모든 가중치와 기울기를 리스트에 모은다  
   - self.params, self.grads = [], []
 - 메서드 생성
-  - 추론을 
-  
+  - 추론을 담당하는 predict(return x)  
+  - 순전파를 담당하는 forward(return loss)  
+  - 역전파를 담당하는 backward(return dout)   
+- 학습용 코드 생성후 신경망 로드  
+  - from two_layer_net import TwoLayerNet  
+- 하이퍼 파라미터 설정
+  - epoch(데이터를 한번씩 모두 살펴봄), batch_size, hidden_size, learning rate  
+- 모델과 옵티마이저 생성  
+- 기울기를 구해 매개변수 갱신  
+  - loss = model.forward(batch_x, batch_t)  
+  - optimizer.update(model.params, model.grads)  
 ### 가중치 초기값을 모두 0으로 하면?
 - 옳지 못한 방법으로 학습이 제대로 이루어지지 않음   
-- 오차역전파법에서 모든 가중치가 똑같이 갱신되어 버림   
+- 오차역전파법에서 모든 가중치가 똑같이 갱신되어 버림  
+### 리스트 내포  
+- xs = [1, 2, 3, 4]  
+- x = [x**2 for x in xs]  반복문을 처리하는 새로운 리스트 생성완료  
 ### 변수의 메모리 주소를 고정하기
 - a = b 하면 b의 주소가 기억  
 - a[...] = b 하면 a의 주소에 b값이 기억    
