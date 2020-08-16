@@ -22,6 +22,10 @@ https://wikidocs.net/22644
 삼성SDS ‖ 사이버보안사업팀  
 https://image.samsungsds.com/global/ko/about/event/agenda/__icsFiles/afieldfile/2018/09/27/05-AI-In-Cybersecurtiy.pdf  
   
+# TensorFlow, Keras and deep learning, without a PhD
+Martin Görner ‖ Google    
+https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0
+
 # ADVERSARIAL MACHINE LEARNING AT SCALE  
 Alexey Kurakin ‖ Google Brain  
 Ian J. Goodfellow ‖ OpenAI  
