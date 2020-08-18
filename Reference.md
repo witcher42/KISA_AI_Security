@@ -1,3 +1,8 @@
+# How to Improve Your Deep Learning Model Performance - Python, Deep Learning  
+빵형의 개발도상국   
+https://youtu.be/5sXQGH9I2VM
+
+
 # 인공지능을 활용한 보안기술 개발 동향  
 국경완 ‖ 국방통합데이터센터 실장  
 공병철 ‖ 한국사이버감시단  
