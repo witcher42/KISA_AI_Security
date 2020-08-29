@@ -6,6 +6,15 @@ https://www.technative.io/why-unsupervised-machine-learning-is-the-future-of-cyb
 빵형의 개발도상국   
 https://youtu.be/5sXQGH9I2VM
 
+# 인공신경망 알고리즘을 통한 사물인터넷 위협 탐지 기술 연구  
+오성택 ‖ KISA   
+고웅 ‖ KISA  
+김미주 ‖ KISA  
+이재혁 ‖ KISA  
+김홍근 ‖ KISA   
+박순태 ‖ KISA    
+http://koreascience.or.kr/article/JAKO201904533930646.pdf  
+  
 # 인공지능을 활용한 보안기술 개발 동향  
 국경완 ‖ 국방통합데이터센터 실장  
 공병철 ‖ 한국사이버감시단  
